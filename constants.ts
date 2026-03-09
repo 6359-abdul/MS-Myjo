@@ -32,24 +32,27 @@ const PP_NURSERY: PageInfo[] = [
   { id: 21, title: "Nursery Art & Craft", imageUrl: "/pages/page_21.jpg" },
   { id: 23, title: "Nursery Deeniyat", imageUrl: "/pages/page_23.jpg" },
 ];
-
-const PP_PP1_PP2: PageInfo[] = [
+const PP_PP1: PageInfo[] = [
   { id: 6, title: "PP1 Coursebook Workbook Literacy", imageUrl: "/pages/page_6.jpg" },
   { id: 18, title: "PP1 EVS Coursebook & Workbook", imageUrl: "/pages/page_18.jpg" },
+  { id: 14, title: "PP1 Numeracy", imageUrl: "/pages/page_14.jpg" },
+];
+const PP_PP2: PageInfo[] = [
   { id: 19, title: "PP2 EVS Coursebook & Workbook", imageUrl: "/pages/page_19.jpg" },
   { id: 20, title: "Learning Cards", imageUrl: "/pages/page_20.jpg" },
   { id: 8, title: "PP2 Coursebook Workbook Literacy", imageUrl: "/pages/page_8.jpg" },
   { id: 9, title: "Collaterals Cards", imageUrl: "/pages/page_9.jpg" },
   { id: 10, title: "Collaterals Cards 2", imageUrl: "/pages/page_10.jpg" },
-  { id: 12, title: "PP1 & PP2 Rhymes", imageUrl: "/pages/page_12.jpg" },
-  { id: 14, title: "PP1 Numeracy", imageUrl: "/pages/page_14.jpg" },
+  { id: 25, title: "PP2 Urdu", imageUrl: "/pages/page_25.jpg" },
+  { id: 26, title: "PP2 Hindi", imageUrl: "/pages/page_26.jpg" },
   { id: 15, title: "PP2 Numeracy Coursebook & Workbook", imageUrl: "/pages/page_15.jpg" },
   { id: 16, title: "Collaterals Cards 3", imageUrl: "/pages/page_16.jpg" },
+];
+const PP_PP1_PP2: PageInfo[] = [
+  { id: 12, title: "PP1 & PP2 Rhymes", imageUrl: "/pages/page_12.jpg" },
   { id: 7, title: "PP1 & PP2 Writingbook Literacy", imageUrl: "/pages/page_7.jpg" },
   { id: 22, title: "PP1 & PP2 Art & Craft", imageUrl: "/pages/page_22.jpg" },
   { id: 24, title: "PP1 & PP2 Deeniyat", imageUrl: "/pages/page_24.jpg" },
-  { id: 25, title: "PP2 Urdu", imageUrl: "/pages/page_25.jpg" },
-  { id: 26, title: "PP2 Hindi", imageUrl: "/pages/page_26.jpg" },
   { id: 27, title: "What Makes MYJO Unique", imageUrl: "/pages/page_27.jpg" },
   { id: 28, title: "Tarbiyah Based Education", imageUrl: "/pages/page_28.jpg" },
 ];
@@ -181,6 +184,8 @@ export const SIDEBAR_SECTIONS: SidebarSection[] = [
     subjects: [
       { name: "Introduction", pages: PP_INTRODUCTION },
       { name: "Nursery", pages: PP_NURSERY },
+      { name: "PP1", pages: PP_PP1},
+      { name: "PP2", pages: PP_PP2 },
       { name: "PP1 & PP2", pages: PP_PP1_PP2 },
     ],
   },
