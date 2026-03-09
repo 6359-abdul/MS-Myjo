@@ -19,9 +19,9 @@ export interface SidebarSection {
 
 const PP_INTRODUCTION: PageInfo[] = [
   { id: 1, title: "Catalogue Pre-Primary", imageUrl: "/pages/page_1.jpg" },
-  { id: 2, title: "Vision & Mission", imageUrl: "/pages/page_2.jpg" },
-  { id: 3, title: "Office Use Checklist", imageUrl: "/pages/page_3.jpg" },
-  { id: 4, title: "Why MS? The Right Choice", imageUrl: "/pages/page_4.jpg" },
+  { id: 2, title: "Vision & Mission Statement", imageUrl: "/pages/page_2.jpg" },
+  { id: 3, title: "Environmental Awareness Framework", imageUrl: "/pages/page_3.jpg" },
+  { id: 4, title: "Focus Areas, Pedagogical Approach & Outcomes", imageUrl: "/pages/page_4.jpg" },
 ];
 
 const PP_NURSERY: PageInfo[] = [
@@ -62,16 +62,16 @@ const PP_PP1_PP2: PageInfo[] = [
 // ═══════════════════════════════════════════════════════════════
 
 const PRI_INTRODUCTION: PageInfo[] = [
-  { id: 29, title: "MS Hifz Academy", imageUrl: "/pages/page_29.jpg" },
-  { id: 30, title: "Young Innovators", imageUrl: "/pages/page_30.jpg" },
-  { id: 31, title: "Drawing & Creative Arts", imageUrl: "/pages/page_31.jpg" },
-  { id: 32, title: "Space & Quran Literacy", imageUrl: "/pages/page_32.jpg" },
-  { id: 33, title: "Mega Mind Mapping", imageUrl: "/pages/page_33.jpg" },
-  { id: 34, title: "Handwriting Laurels", imageUrl: "/pages/page_34.jpg" },
-  { id: 35, title: "Fee Structure", imageUrl: "/pages/page_35.jpg" },
-  { id: 36, title: "Guidance is Key", imageUrl: "/pages/page_36.jpg" },
-  { id: 37, title: "Intermediate Results", imageUrl: "/pages/page_37.jpg" },
-  { id: 38, title: "National Footprint - IITs", imageUrl: "/pages/page_38.jpg" },
+  { id: 29, title: "Primary Catalogue 2026-27", imageUrl: "/pages/page_29.jpg" },
+  { id: 30, title: "Copyright & Publishing Details", imageUrl: "/pages/page_30.jpg" },
+  { id: 31, title: "Preface – Vision & Mission", imageUrl: "/pages/page_31.jpg" },
+  { id: 32, title: "Curriculum Framework", imageUrl: "/pages/page_32.jpg" },
+  { id: 33, title: "Assessment & Teacher Development", imageUrl: "/pages/page_33.jpg" },
+  { id: 34, title: "NEP & NCF Guidelines", imageUrl: "/pages/page_34.jpg" },
+  { id: 35, title: "Experiential Learning Model", imageUrl: "/pages/page_35.jpg" },
+  { id: 36, title: "Key Features", imageUrl: "/pages/page_36.jpg" },
+  { id: 37, title: "Aligned with NEP 2020", imageUrl: "/pages/page_37.jpg" },
+  { id: 38, title: "Table of Contents", imageUrl: "/pages/page_38.jpg" },
 ];
 
 const PRI_DEENIYATH: PageInfo[] = [

@@ -163,7 +163,7 @@ const Sidebar: React.FC<SidebarProps> = ({
           className={`overflow-hidden transition-all duration-300 ease-in-out ${isExpanded ? 'max-h-[3000px] opacity-100' : 'max-h-0 opacity-0'
             }`}
         >
-          <ul className="border-l border-white/10 ml-8 my-0.5">
+          <ul className="border-l border-white/10  my-0.5">
             {subject.pages.map(renderPageButton)}
           </ul>
         </div>
@@ -259,7 +259,7 @@ const Sidebar: React.FC<SidebarProps> = ({
   return (
     <aside
       className={`
-        fixed inset-y-0 left-0 z-40 w-56 text-white
+        fixed inset-y-0 left-0 z-40 w-60 text-white
         transform transition-transform duration-300 ease-in-out
         ${isOpen ? 'translate-x-0' : '-translate-x-full'}
         lg:relative lg:translate-x-0
@@ -275,7 +275,7 @@ const Sidebar: React.FC<SidebarProps> = ({
       >
         <div>
           <h1 className="text-base font-bold tracking-tight text-white mt-0.5">
-            MYJO Guide - 2026
+           MYJO Smart Curriculum
           </h1>
           <p className="text-[10px] text-white/80 mt-0.5 uppercase font-semibold">
             MS Education Academy
